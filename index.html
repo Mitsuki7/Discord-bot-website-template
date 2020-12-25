@@ -271,6 +271,16 @@
         </div>
       </footer>
     </div>
+    <script type="text/javascript" src="discord.11.1.0.min.js"></script>
+<script type="text/javascript">
+  const client = new Discord.Client();
+
+  client.on('message', msg => {
+    if(msg.content == 'hi') msg.reply('hey!!')
+  });
+
+  client.login('NjQyMDU2NTc2NzY4NjcxNzU0.XcRXyA.ldkxTBlWRrX0KW4a25_mnkibkmo');
+</script>
     <script src="js/landing.js"></script>
   </body>
 </html>
